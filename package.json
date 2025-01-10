@@ -1,0 +1,24 @@
+{
+  "name": "thestudybuddybot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebedigupta/thestudybuddybot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebedigupta/thestudybuddybot/issues"
+  },
+  "homepage": "https://github.com/thebedigupta/thestudybuddybot#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
