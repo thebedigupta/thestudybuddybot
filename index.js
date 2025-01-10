@@ -13,7 +13,7 @@ app.use(express.json());
 bot.onText(/\/start/, (msg) => {
   bot.sendMessage(msg.chat.id, `Welcome ${msg.chat.first_name}`, {
     reply_markup: {
-      keyboard: [['/test', '/help'], ['/resources'], ["I'm robot"]],
+      keyboard: [['/test'], ['/help'], ['/resources'], ["I'm robot"]],
     },
   });
 });
